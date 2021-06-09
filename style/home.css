@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    margin-top: 20%;
+}
+
+.shoe-catalogue {
+    /* width: 90%;
+    margin: auto;
+} */
+}
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.filter {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* margin-top: 50px; */
+    margin-left: auto;
+    box-sizing: border-box;
+    height: 840px;
+    /* position: fixed; */
+    /* background-color: rgba(245, 222, 179, 0.274); */
+}
+
+.shoes{
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+    margin: auto;
+    box-sizing: border-box;
+    height: 840px;
+    /* margin-left: 300px; */
+    /* background-color: rgba(245, 222, 179, 0.274); */
+}
+
+.cart {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* margin: 10px; */
+    box-sizing: border-box;
+    height: 840px;
+    margin: auto;
+    /* float: right; */
+    /* position: fixed; */
+    /* background-color: rgba(245, 222, 179, 0.274); */
+}
+
+.shoe-rack {
+    display: flex;
+    margin: 20px; 
+   
+}
+
+.details{
+    background-color: white;
+    height: 430px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.details img {
+    /* background-image: url("images (10).jpeg"); */
+    background-size: cover;
+    background-position: top;
+    height: 220px; 
+    width: 220px; 
+    border-radius: 5px 5px 0px 0px;
+    box-shadow:  1px gray;
+
+}
+
+.details h5{
+text-align: center;
+text-transform: uppercase;
+font-weight: bolder;
+color: tomato;
+
+}
+
+.details a{
+    font-size: 12px;
+    font-weight: bold;
+    color: white; 
+    width: 100%;
+    text-align: center;
+}
+
+.details button {
+    background-color: tomato;
+    text-align: center;
+    border: 0;
+    margin-left: 25px;
+    width: 160px;
+    padding: 20px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: -15px;
+}
+
+
+.price {
+    text-align: center;
+    color: cadetblue;
+    margin-top: -20px;
+}
+.pelletes {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.size {
+    border: 2px solid slategray;;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+   text-align: center;
+   color: slategray;
+    border-radius: 100%;
+    margin-top: -20px;
+}
+
+.pink {
+    background-color: thistle;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+}
+
+.red {
+    background-color: red;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+
+}
+
+.black {
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+}
+
+.filter .pelletes{
+  display: block;
+}
+
